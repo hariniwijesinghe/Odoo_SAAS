@@ -1,0 +1,91 @@
+2024-09-17 03:29:26,815 31288 INFO ? odoo: Odoo version 17.0-20240916 
+2024-09-17 03:29:26,815 31288 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 17.0.20240916\server\odoo.conf 
+2024-09-17 03:29:26,815 31288 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 17.0.20240916\\server\\odoo\\addons', 'c:\\program files\\odoo 17.0.20240916\\sessions\\addons\\17.0', 'c:\\program files\\odoo 17.0.20240916\\server\\odoo\\addons'] 
+2024-09-17 03:29:26,815 31288 INFO ? odoo: database: openpg@localhost:5432 
+2024-09-17 03:29:27,583 31288 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 17.0.20240916\thirdparty\wkhtmltopdf.exe 
+2024-09-17 03:29:28,146 31288 WARNING ? py.warnings: C:\Program Files\Odoo 17.0.20240916\python\Lib\site-packages\vobject\base.py:736: SyntaxWarning: invalid escape sequence '\-'
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\server.py", line 177, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\service\server.py", line 1359, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\service\server.py", line 1262, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Program Files\Odoo 17.0.20240916\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Program Files\Odoo 17.0.20240916\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-09-17 03:29:28,146 31288 WARNING ? py.warnings: C:\Program Files\Odoo 17.0.20240916\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\;'
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\server.py", line 177, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\service\server.py", line 1359, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\service\server.py", line 1262, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Program Files\Odoo 17.0.20240916\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Program Files\Odoo 17.0.20240916\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-09-17 03:29:28,146 31288 WARNING ? py.warnings: C:\Program Files\Odoo 17.0.20240916\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\,'
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\cli\server.py", line 177, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\service\server.py", line 1359, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\service\server.py", line 1262, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Program Files\Odoo 17.0.20240916\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Program Files\Odoo 17.0.20240916\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo 17.0.20240916\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-09-17 03:29:28,304 31288 INFO ? odoo.service.server: Initiating shutdown 
+2024-09-17 03:29:28,304 31288 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
